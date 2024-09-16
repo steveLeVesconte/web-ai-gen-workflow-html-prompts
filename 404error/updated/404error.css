@@ -1,0 +1,83 @@
+/* 404Error.css */
+
+/* Error Content Styles */
+.error-content {
+    text-align: center;
+    padding: var(--spacing-section) 0;
+}
+
+/* manually updated 202400908 sl. Error Content Styles */
+.error-content {
+    padding: var(--spacing-section);
+}
+
+.error-content h1 {
+    color: var(--color-accent-primary);
+    margin-bottom: var(--spacing-heading);
+}
+
+.error-content p {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Error Navigation Styles */
+.error-navigation {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: var(--spacing-section);
+}
+
+/* Button Styles */
+.primary-button,
+.secondary-button {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all var(--transition-default);
+}
+
+.primary-button {
+    background-color: var(--color-accent-primary);
+    color: var(--color-text-reverse);
+}
+
+.primary-button:hover {
+    background-color: var(--color-text-link);
+    color: var(--color-text-reverse);
+}
+
+.secondary-button {
+    border: 2px solid var(--color-accent-primary);
+    color: var(--color-accent-primary);
+}
+
+.secondary-button:hover {
+    background-color: var(--color-accent-primary);
+    color: var(--color-text-reverse);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .error-navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .error-navigation li {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .primary-button,
+    .secondary-button {
+        width: 100%;
+        text-align: center;
+    }
+}

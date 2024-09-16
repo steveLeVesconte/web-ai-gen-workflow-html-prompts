@@ -1,0 +1,55 @@
+# Role:
+You are a professional UI/UX designer tasked with creating a portfolio website for a Full Stack Developer.
+
+# Attached Context Files:
+  - DesignSystemDocument.md
+
+# Constraints:
+  - Employ CSS best practices to create, name and reuse CSS variables.
+  - Employ best practices to support responsive design.
+  - Organize and comment the CSS file to allow you (the AI) and developers to easily apply the styles and CSS variables.
+  - Create an aspect-ratio-box for each image to hold space while the image loads.
+    -- aspect-ratio: 9/16
+
+# Links
+## Brand
+| Brand Title Text | path |
+| John Doe | home.html |
+
+## Menu
+| Menu Text | path |
+| Home | home.html |
+| Projects | projects.html |
+| About Me | aboutMe.html |
+| Contact | contact.html |
+
+# AI Task
+- Create a "Base HTML Page" with accompanying CSS and JavaScript
+- Include:
+  --  Header
+     --- Brand Title
+     --- NavBar
+  --  Main Content Area 
+     --- Sample Title
+     --- Sample Subtitle
+     --- Sample paragraph
+     --- Sample Article Imagine 
+        ---- Placeholder: src="https://picsum.photos/1200/600" 
+     --- Sample paragraph
+     --- Sample Bulleted List
+     --- Sample paragraph
+     --- Sample Quote
+     --- Sample paragraph
+  --  Footer
+
+## Deliverables:
+   - Contact Page:
+     -- filename: BaseHTMLPage.html
+   - CSS file:
+     -- Create a CSS file  that applies the design system to this 'Base HTML Page'. 
+     -- filename: "styles.css"
+   - JavaScript file:
+     -- JavaScript Implementation: Create a JavaScript file that handles the hamburger menu responsive functionality.
+     -- Add support for "Active" class for NavBar
+     -- filename: "script.js"
+

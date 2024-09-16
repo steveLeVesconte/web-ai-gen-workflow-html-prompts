@@ -1,0 +1,49 @@
+# Role
+You are a professional UI/UX designer tasked with creating a portfolio website for a Full Stack Developer.
+
+# Attached Context Files:
+  - DesignSystemDocument.md
+  - styles.css
+  - 404E=error.css
+  - script.js
+
+# Constraints:
+  - Reuse Existing CSS and JavaScript whenever possible.
+  - Employ CSS best practices to create, name and reuse CSS variables.
+  - Employ best practices to support responsive design.
+  - Organize and comment the CSS file to allow you (the AI) and developers to easily apply the styles and CSS variables.
+  - Create an aspect-ratio-box for each image to hold space while the image loads.
+    -- aspect-ratio: 9/16
+
+# Links
+## Brand Link
+| Bran Title Text | path |
+| John Doe | home.html |
+
+## Menu
+| Menu Text | path |
+| Home | home.html |
+| Projects | projects.html |
+| About Me | aboutMe.html |
+| Contact | contact.html |
+
+# AI Task
+  - Using the attached context files, create an 'Not Yet Implemented' page for the including some sample content.
+  - Assume the attached styles.css and script.js files will be available in the website and use those styles and scripts when possible.
+  - Create a supplemental CSS file for new styles.
+- Include:
+  --  Header
+     --- navigation
+  --  Main Content Area 
+     --- Make up Sample content - consider including any or all of the following elements and more if needed:
+        ---- Title about a feature that is not yet implemented.
+        ---- Sample message about a feature that is not yet implemented.
+        ---- Sample Article Image 
+             ----- Placeholder: src="https://picsum.photos/1200/600" 
+  --  Footer
+ 
+## Deliverables:
+   - HTML Page:
+     -- filename: notYetImplemented.html
+   - supplemental CSS file: (only if needed)
+     -- filename: "notYetImplemented.css"   (only if needed)

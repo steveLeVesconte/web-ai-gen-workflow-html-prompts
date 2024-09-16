@@ -1,0 +1,51 @@
+/* notYetImplemented.css */
+
+/* Additional styles for the Not Yet Implemented page */
+
+/* Enhance the main heading */
+h1 {
+    color: var(--color-accent-primary);
+    text-align: center;
+    margin-bottom: var(--spacing-heading);
+}
+
+/* Style the feature list */
+main ul {
+    background-color: var(--color-body-bg);
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    margin-bottom: var(--spacing-section);
+}
+
+main li {
+    margin-bottom: 0.5rem;
+}
+
+main li::before {
+    content: "✨ ";
+    color: var(--color-accent-secondary);
+}
+
+/* Enhance the blockquote */
+blockquote {
+    font-size: 1.2em;
+    /* manully updated - 20240909 sl 
+        color: var(--color-accent-primary);
+    border-left-color: var(--color-accent-secondary);*/
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    main ul {
+        padding: 1rem;
+    }
+
+    blockquote {
+        font-size: 1em;
+    }
+}
